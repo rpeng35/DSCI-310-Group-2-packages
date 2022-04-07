@@ -1,12 +1,19 @@
 # DSCI-310-Group-2-packages
 
-DSCI-310-Group-2-packages is an R package that contains the functions used in a heart disease classification analysis done for DSCI 310 at UBC. This package is distributed under the MIT License.
+`DSCI-310-Group-2-packages` is an R package that contains the functions used in a heart disease classification analysis done for DSCI 310 at UBC. This package is distributed under the MIT License.
 
 The functions in this package clean and process data and create exploratory analysis figures.
 
 The project that uses this package can be found at https://github.com/DSCI-310/DSCI-310-Group-2
 
 # Installation
+
+You can install the development version of `DSCI-310-Group-2-packages` from
+[GitHub](https://github.com/) with:
+
+``` r
+devtools::install_github("DSCI-310/DSCI-310-Group-2-packages")
+```
 
 # Usage
 The package contains three functions, for more detailed desciptions of the function please look at the roxxygen2 skeleton in the code
