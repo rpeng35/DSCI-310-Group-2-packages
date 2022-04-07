@@ -14,7 +14,7 @@ everything_rownames <- data.frame(diagnosis = c(0, 1, 2))
 # function outputs for tests
 all_zeros_output <- data.frame(diagnosis = c(0, 0, 0))
 one_one_output <- data.frame(diagnosis = c(0, 1, 0, 0))
-one_two_output <-data.frame(diagnosis = c(0, 0, 1, 0))
+one_two_output <-data.frame(diagnosis = c(1, 0, 0, 0))
 one_three_output <- data.frame(diagnosis = c(0, 0, 1, 0))
 one_four_output <- data.frame(diagnosis = c(0, 0, 0, 1))
 one_everything_output <- data.frame(diagnosis = c(0, 1, 1, 1, 1))
