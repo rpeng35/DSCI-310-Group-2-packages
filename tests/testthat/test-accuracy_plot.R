@@ -27,7 +27,6 @@ test_that("`accuracy_plot` should return a ggplot and plot layers match expectat
   expect_equal(accuracy_plot(tibble_5_row)$data$neighbors, accuracy_tibble_5_row$data$neighbors)
 })
 
-
 test_that("`accuracy_plot` should throw an error when incorrect types are passed to `tibble` argument", {
   expect_error(accuracy_plot(df0))
   expect_error(accuracy_plot(0))
