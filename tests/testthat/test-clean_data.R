@@ -16,8 +16,7 @@ test_that("`clean_data` should return a data frame with the same or less than nu
     expect_equal(nrow(clean_data(two_cols_1_qmissing)), nrow(two_cols_1_qmissing_output))
     expect_equal(nrow(clean_data(two_cols_2_qmissing)), nrow(two_cols_2_qmissing_output))
     expect_equal(nrow(clean_data(two_cols_2_qmissing_and_na)), nrow(two_cols_2_qmissing_and_na_output))
-    expect_equal(nrow(clean_data(two_cols_2_na)), nrow(two_cols_2_na_output))
-    
+    expect_equal(nrow(clean_data(two_cols_2_na)), nrow(two_cols_2_na_output))    
 })
 
 test_that("`clean_data` should return a data frame with the same number of columns as the dataframe from the original dataset", {
@@ -25,13 +24,11 @@ test_that("`clean_data` should return a data frame with the same number of colum
     expect_equal(ncol(clean_data(two_cols_1_qmissing)), ncol(two_cols_1_qmissing_output))
     expect_equal(ncol(clean_data(two_cols_2_qmissing)), ncol(two_cols_2_qmissing_output))
     expect_equal(ncol(clean_data(two_cols_2_qmissing_and_na)), ncol(two_cols_2_qmissing_and_na_output))
-    expect_equal(ncol(clean_data(two_cols_2_na)), ncol(two_cols_2_na_output))
-    
+    expect_equal(ncol(clean_data(two_cols_2_na)), ncol(two_cols_2_na_output))    
 })
 
 test_that("`clean_data` preserves row names", {
-    expect_equivalent(clean_data(two_cols_1_qmissing_rownames)[,1], two_cols_1_qmissing_rownames_output[,1])
-    
+    expect_equivalent(clean_data(two_cols_1_qmissing_rownames)[,1], two_cols_1_qmissing_rownames_output[,1])    
 })
 
 test_that("`clean_data` should return a dataframe with no missing values", {
