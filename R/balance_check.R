@@ -2,11 +2,11 @@ library(rlang)
 library(tidyverse)
 #' Creates a table
 #'
-#' take a data frame and the diagnosis column and creates a table that with the percentage for the diagnosis
-#' must only have numeric types
+#' take a data frame and an unquoted name of one column and creates a table with the percentage and count of the desired column's differnet values
+#' Specified column must only have numeric types
 #'
 #' @param df A dataframe or dataframe extension
-#' @param col_n A quoted column name of the desigred column
+#' @param col_n An unquoted column name of the desired column
 #'
 #' @return A table with three columns
 #' @export
