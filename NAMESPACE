@@ -3,3 +3,4 @@
 export(balance_check)
 export(clean_data)
 export(diagnosis)
+export(accuracy_plot)
