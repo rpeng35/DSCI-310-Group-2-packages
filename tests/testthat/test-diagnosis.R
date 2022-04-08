@@ -11,7 +11,6 @@ test_that("`diagnosis` should return a data frame", {
     expect_s3_class(diagnosis(one_three), "data.frame")
     expect_s3_class(diagnosis(one_four), "data.frame")
     expect_s3_class(diagnosis(one_everything), "data.frame")
-
 })
 
 test_that("`diagnosis` should return a data frame with the same number of rows as the dataframe from the original dataset", {
@@ -22,7 +21,6 @@ test_that("`diagnosis` should return a data frame with the same number of rows a
     expect_equal(nrow(diagnosis(one_three)), nrow(one_three_output))
     expect_equal(nrow(diagnosis(one_four)), nrow(one_four_output))
     expect_equal(nrow(diagnosis(one_everything)), nrow(one_everything_output))
-
 })
 
 test_that("`diagnosis` should return a data frame with the same number of columns as the dataframe from the original dataset", {
@@ -32,7 +30,6 @@ test_that("`diagnosis` should return a data frame with the same number of column
     expect_equal(ncol(diagnosis(one_three)), ncol(one_three_output))
     expect_equal(ncol(diagnosis(one_four)), ncol(one_four_output))
     expect_equal(ncol(diagnosis(one_everything)), ncol(one_everything_output))
-
 })
 
 test_that("`diagnosis` does not return the right value", {
