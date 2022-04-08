@@ -39,7 +39,6 @@ test_that("`clean_data` should return a dataframe with no missing values", {
     expect_equivalent(clean_data(two_cols_2_na), two_cols_2_na_output)
 })
 
-
 test_that("`clean_data` should throw an error when incorrect types are passed to `data_frame` argument", {
     expect_error(clean_data(vec))
     expect_error(clean_data(test_list))
