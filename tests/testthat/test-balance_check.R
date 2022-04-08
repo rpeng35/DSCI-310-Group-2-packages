@@ -1,4 +1,5 @@
 library(testthat)
+
 source("../../R/balance_check.r")
 source("../../tests/testthat/helper-balance_check.R")
 
