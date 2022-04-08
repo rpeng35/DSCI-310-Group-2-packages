@@ -41,8 +41,6 @@ test_that("`diagnosis` does not return the right value", {
     expect_equal(diagnosis(one_everything), one_everything_output)
 })
 
-
-
 test_that("`diagnosis` should throw an error when incorrect types are passed to `data_frame` argument", {
     expect_error(diagnosis(vec))
     expect_error(diagnosis(test_list))
