@@ -1,5 +1,5 @@
-Package: DSCI310
-Title: What the Package Does (One Line, Title Case)
+Package: group2
+Title: functions for analysis (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
     person("Ryan", "Peng", , "ryan8831@gmail.com", role = c("aut", "cre"),
@@ -10,5 +10,8 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+VignetteBuilder: knitr
