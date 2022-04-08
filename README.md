@@ -22,6 +22,14 @@ The package contains three functions, for more detailed desciptions of the funct
 * accuracy_plot: a function that creates a plot that shows the elbow plot for the number of neighbors used in KNN classification
 * balance_check: a function that creates a table that shows the proportion of data in a dataframe
 
+Examples:
+```
+clean_data(heart_disease)
+diagnosis(heart_disease)
+balance_check(heart_disease, diagnosis)
+accuracy_plot(accuracy)
+```
+
 # Contributing
 
 Interested in contributing? Check out the [Contributing Guidelines](https://github.com/DSCI-310/DSCI-310-Group-2-packages/blob/main/CONTRIBUTING.md). Please note that this project is released with a [Code of Conduct](https://github.com/DSCI-310/DSCI-310-Group-2-packages/blob/main/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
